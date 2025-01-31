@@ -76,7 +76,7 @@ esta es para example....
 para curso....
 exp://192.168.10.18:8081
 
-los elementos view equivalena un div en react native y estan con flex
+los elementos view equivalena un div en react native y estan con display flex por defecto
 
 41:01
 44:00 aprox para importar imagen utilizando el componente image
