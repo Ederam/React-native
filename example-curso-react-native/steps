@@ -1,0 +1,20 @@
+
+https://www.youtube.com/watch?v=U23lNFm_J70
+Curso REACT NATIVE para Principiantes + Aplicación DESDE CERO con Expo
+
+Crear aplicacion con React native
+npx create-expo-app@latest
+
+name
+    example-curso-react-Native
+
+Creacion de repositorio
+git init
+git add .
+git commit -m "primer commit"
+git branch -M main
+git remote add origin https://github.com/Ederam/Aplicacion-React.git
+git push -u origin main
+
+ya se ha subido a repositorio remoto en rama main
+https://github.com/Ederam/Aplicacion-React/tree/main

@@ -1,0 +1,43 @@
+expo start --web
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.
+(node:2524) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>
+
+===npm run web
+ejecutado desde la consola visual studio code
+==error
+npm : No se puede cargar el archivo C:\Program Files\nodejs\npm.ps1 porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más 
+información, consulta el tema about_Execution_Policies en https:/go.microsoft.com/fwlink/?LinkID=135170.
+En línea: 1 Carácter: 1
++ npm run web
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+about_Execution_Policies==pasos ejecutados
+Get-ExecutionPolicy
+PS D:\ER-DEV\React Native\App Movil\example-curso-react-native> Get-ExecutionPolicy
+Restricted
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy <PolicyName>
+PS C:\Windows\system32> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+Cambio de directiva de ejecución
+La directiva de ejecución te ayuda a protegerte de scripts en los que no confías.
+Si cambias dicha directiva, podrías exponerte a los riesgos de seguridad descritos
+ en el tema de la Ayuda about_Execution_Policies en
+https:/go.microsoft.com/fwlink/?LinkID=135170. ¿Quieres cambiar la directiva de
+ejecución?
+[S] Sí  [O] Sí a todo  [N] No  [T] No a todo  [U] Suspender  [?] Ayuda
+(el valor predeterminado es "N"):s
+==Se soluciono y permitio ejecutar el comando en la consola de visual studio
+

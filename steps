@@ -1,0 +1,98 @@
+Inicio React Native
+
+https://www.youtube.com/watch?v=qi87b6VcIHY
+CURSO REACT NATIVE desde CERO - Creamos una app paso a paso
+
+Instalar node
+# installs fnm (Fast Node Manager)
+winget install Schniz.fnm
+
+# configure fnm environment
+fnm env --use-on-cd | Out-String | Invoke-Expression
+
+# download and install Node.js
+fnm use --install-if-missing 23
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v23.3.0`
+
+# verifies the right npm version is in the environment
+npm -v # should print `10.9.0`
+
+node -v
+v22.11.0
+
+npm -v
+10.9.0
+
+instalar expo
+npm install -g expo-cli
+
+cd D:\ER-DEV\React Native\App Movil
+
+expo init rate-repository-app
+migrate to
+npx create-expo-app --template
+npx expo init rate-repository-app
+
+npm start
+
+npx expo start
+
+---------Video 2
+https://www.youtube.com/watch?v=U23lNFm_J70
+Curso REACT NATIVE para Principiantes + Aplicación DESDE CERO con Expo
+
+
+npx create-expo-app@latest
+
+name
+    example-curso-react-Native
+npm run web
+
+Instalar expo go para android y poder los cambios
+tiene que estar en la misma red
+Se prueba y efectivamente con el wifi se ven los cambios inmediatos
+
+-->Ahora crearemos una aplicacion de cero
+npx create-expo-app@latest curso-react-native-metacritic-app --template blank
+
+--Instalacion de bluestack 5
+https://www.bluestacks.com/download.html
+habilitar virtualizacion
+https://support.bluestacks.com/hc/es/articles/4409279876621-C%C3%B3mo-habilitar-la-virtualizaci%C3%B3n-VT-en-Windows-11-para-BlueStacks-5?utm_campaign=bgp_product&utm_medium=app_player&utm_source=support#%E2%80%9CA%E2%80%9D
+Ajuste BIOS
+https://support.bluestacks.com/hc/es/articles/4409279876621-C%C3%B3mo-habilitar-la-virtualizaci%C3%B3n-VT-en-Windows-11-para-BlueStacks-5?utm_campaign=bgp_product&utm_medium=app_player&utm_source=support#%E2%80%9CA%E2%80%9D
+
+npm start
+
+activar para poder ver el proyecto en la web
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+para verla en simulador con expo
+exp://192.168.10.18:8081
+esta es para example....
+
+para curso....
+exp://192.168.10.18:8081
+
+los elementos view equivalena un div en react native y estan con flex
+
+41:01
+44:00 aprox para importar imagen utilizando el componente image
+
+en curso-react-native-metacritic-app\App.js
+importar imagen de react-native
+declarar constante para el icono local a usar
+    const icon = require('./assets/icon.png')
+    tambien es posible utilizar el import
+        import icon from './assets/icon.png';
+    
+dentro de view utilizar el componente
+    <Image source={icon}/>
+    y se le pueden agregar estilos tambien
+        <Image source={icon} style ={{ width:100, height: 100 }}/>
+        este es el numero de PIXELES EFECTIVOS-RESOLUCION EFECTIVA por pantalla, depende el dispositivo
+        se puede añadir la propiedad resizeMode: 'center' o contain depende de lo que se necesita
+        tambien modificar el color del estilo #09f
+51:00 aprox para incluir una imagen desde una url
