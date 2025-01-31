@@ -16,7 +16,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Probando que esto es realmente rápido!</ThemedText>
+        <ThemedText type="title">Se esta probando velocidad en distintos dispositivos!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>

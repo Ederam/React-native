@@ -8,13 +8,29 @@ npx create-expo-app@latest
 name
     example-curso-react-Native
 
-Creacion de repositorio
+Creacion de repositorio React-native en github
+echo "# React-native" >> README.md
 git init
-git add .
-git commit -m "primer commit"
+git add README.md
+git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Ederam/Aplicacion-React.git
+git remote add origin https://github.com/Ederam/React-native.git
 git push -u origin main
 
-ya se ha subido a repositorio remoto en rama main
-https://github.com/Ederam/Aplicacion-React/tree/main
+Ejecucion para web
+npm run web
+
+Ver en simulador de android la aplicacion
+Mis juegos/Expo Go
+agregar la url para poder ver la aplicacion en el simulador
+en la consola buscar la url expo
+exp://192.168.10.12:8081
+
+App Movil\example-curso-react-native\app\(tabs)\index.tsx
+se puede editar el nombre del titulo y ver como cambia en el simulador
+
+Para poder caragar en nuestro dispositivo la pagina
+    se debe instalar la aplicacion Expo Go
+    Se debe estar en la misma red del equipo que esta ejecutando el proyecto
+
+
