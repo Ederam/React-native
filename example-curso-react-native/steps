@@ -33,4 +33,8 @@ Para poder caragar en nuestro dispositivo la pagina
     se debe instalar la aplicacion Expo Go
     Se debe estar en la misma red del equipo que esta ejecutando el proyecto
 
+Creacion de nueva aplicacion vacia 
+npx create-expo-app@latest curso-react-native-metacritic-app --template blank
+
+tener cuidad en cerrar emulador de android que consume harto recurso y acontinuacion se continua en la nueva aplicacion el tutorial
 
