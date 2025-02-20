@@ -24,3 +24,10 @@ https://docs.expo.dev/router/installation/#manual-installation
 
 Si está desarrollando su aplicación para la web, instale las siguientes dependencias:
 npx expo install react-native-web react-dom
+
+Git 
+git commit -m "Creacion de aplicacion nueva my-app"
+git push
+
+https://github.com/Ederam/React-native.git
+

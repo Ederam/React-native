@@ -1,0 +1,16 @@
+
+video guia
+https://www.youtube.com/watch?v=NNVPZFKAJIQ
+Crea un Juego de Minas con React Native | Tutorial 2023
+
+Creacion de proyecto
+npx create-expo-app@latest
+luego doy el nombre del poryecto
+
+agregar carpeta para el codigo src/components/Cell.js
+
+ejecucion del proyecto
+npx expo start -c
+
+crear carpeta de utils dentro de src
+dentro createCell.js
