@@ -14,3 +14,5 @@ npx expo start -c
 
 crear carpeta de utils dentro de src
 dentro createCell.js
+
+git commit -m "Creacion de proyecto para juego de minas"
