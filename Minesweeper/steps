@@ -16,3 +16,11 @@ crear carpeta de utils dentro de src
 dentro createCell.js
 
 git commit -m "Creacion de proyecto para juego de minas"
+git commit -m "Creacion de proyecto para juego de minas adicionando proyecto faltante"
+ver cambios
+https://github.com/Ederam/React-native.git
+
+creamos funcion dentro de createCell.js
+creacion de varias celdas en la pantalla
+
+git commit -m "Creacion de funcion createCell y varias celdas"
