@@ -1,0 +1,26 @@
+
+pagina de tutorial
+https://medium.com/@hiafraan/building-your-first-react-native-app-a-step-by-step-guide-aaae1bc8ad36
+
+Creacion del proyecto
+npx create-expo-app
+
+Instalacion de dependencias
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Configuracion de la aplicacion
+en App.js
+
+Ejecutar la aplicacion para inicarla y borrar la cache anterior
+npx expo start -c 
+
+Restablecer la estructura del proyecto
+npm run reset-project
+para organizar la estructura del proyecto
+Este comando moverá el código de inicio al directorio "app-example" y creará un directorio "app" en blanco donde podrá comenzar a desarrollar.
+
+pagina guia
+https://docs.expo.dev/router/installation/#manual-installation
+
+Si está desarrollando su aplicación para la web, instale las siguientes dependencias:
+npx expo install react-native-web react-dom

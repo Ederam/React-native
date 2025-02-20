@@ -1,0 +1,6 @@
+Este codigo fue descargado del ejercicio seguido
+
+Ejecutar npm i para instalar paquetes
+
+Al ejecutar e intentar abri en expo en bluestack solicita actualizar expo
+npx expo install expo@^52.0.0
