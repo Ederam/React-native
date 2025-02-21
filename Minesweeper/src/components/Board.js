@@ -5,7 +5,7 @@ import { createBoard } from '../utils/createBoard';
 import Cell from '../../src/components/Cell';
 
 const BOARD_SIZE = 10;
-const BOMMS_NUM = 10;
+const BOMMS_NUM = 3;
 
 export default function Board(){
     const [gameState, dispatch ] = React.useReducer(gameReducer, {

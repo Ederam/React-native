@@ -39,7 +39,13 @@ windows + .
 
 git commit -m "Creacion Board,Creacion creatBoard,creacion de clase gameReducer, se ajusta y muestra al menos una fila de values osea 0 0 0 ..."
 
+Creacion de funcion para insertar bombas
+creacion de funcion para incrementar los numeros
+creacion funcion que busca los vecinos de la bomba para incrementar
+
+git commit -m "creacion funcion crearbombas,incrementar numero y buscar vecinos, aun no carga toda la cuadricula"
+
 video guia
 https://www.youtube.com/watch?v=NNVPZFKAJIQ
 Crea un Juego de Minas con React Native | Tutorial 2023
-29:52
+41:36

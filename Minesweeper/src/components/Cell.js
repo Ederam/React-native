@@ -3,9 +3,11 @@ import { View,StyleSheet, Text } from "react-native";
 
 
 export default function Cell({row, col, isBomb, isFlipped, value}) {
-       return <View style={styles.container}> 
-            <Text style={styles.text}>{value}</Text>
-        </View>;
+       return (
+        <View style={styles.container}> 
+            <Text style={styles.text}>{isBomb ? '💣' : value}</Text>
+        </View>
+       );
 }
 
 const styles = StyleSheet.create({
