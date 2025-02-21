@@ -24,3 +24,22 @@ creamos funcion dentro de createCell.js
 creacion de varias celdas en la pantalla
 
 git commit -m "Creacion de funcion createCell y varias celdas"
+
+Crear componente Board 
+App Movil\Minesweeper\src\components\Board.js
+Crear component createBoard.js
+App Movil\Minesweeper\src\utils\createBoard.js
+crear funcion para crear la matrix
+Uso de Reduce
+Crear carpeta reducers y la clase gameReducer.js
+App Movil\Minesweeper\src\reducers\gameReducer.js
+
+para escribir emojis en vsc
+windows + .
+
+git commit -m "Creacion Board,Creacion creatBoard,creacion de clase gameReducer, se ajusta y muestra al menos una fila de values osea 0 0 0 ..."
+
+video guia
+https://www.youtube.com/watch?v=NNVPZFKAJIQ
+Crea un Juego de Minas con React Native | Tutorial 2023
+29:52

@@ -1,14 +1,20 @@
 import { View } from "react-native";
 import Cell from '../../src/components/Cell';
+import Board from '../../src/components/Board';
 
 
 export default function App(){
   return <View>
-    <Cell />
-    <Cell />
-    <Cell />
-    <Cell />
-    <Cell />
-    <Cell />
+
+    {/* <Cell />     */}
+    
+    <Board /> 
+    
+    {/* <Cell />
+    
+    <Board /> 
+
+    <Cell /> */}
+    
   </View>;
 }
